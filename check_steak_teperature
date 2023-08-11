@@ -1,0 +1,11 @@
+temperature = int(input('Enter the temperature: '))
+if temperature >= 160:
+    print('Well Done')
+elif 150 <= temperature < 160:
+    print('Medium Well')
+elif 140 <= temperature < 150:
+    print('Medium ')
+elif 130 <= temperature < 140:
+    print('Medium rare')
+else:
+    print('Rare')
