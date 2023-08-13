@@ -1,0 +1,14 @@
+funcionarios = ['ana', 'marcos', 'alice', 'pedro', 'sofia', 'bruno', 'melissa']
+dia = ['ana', 'marcos', 'alice', 'melissa']
+noite = ['pedro', 'sofia', 'bruno']
+carro = ['marcos', 'alice', 'bruno', 'melissa']
+
+
+carro_e_noite = set(noite).intersection(set(carro))
+print(carro_e_noite)
+
+carro_e_dia = set(dia).intersection(set(carro))
+print(carro_e_dia)
+
+nao_carro = set(funcionarios).symmetric_difference(set(carro))
+print(nao_carro)
