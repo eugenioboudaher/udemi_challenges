@@ -1,0 +1,9 @@
+def calc_tinta(altura, largura, redimento):
+    print(f'Você necessitará de {(altura * largura) / redimento} latas de tinta')
+
+
+altura = float(input('Entre com altura: '))
+largura = float(input('Entre com largura: '))
+rendimento = float(input('Entre com rendimento: '))
+
+calc_tinta(altura, largura, rendimento)
